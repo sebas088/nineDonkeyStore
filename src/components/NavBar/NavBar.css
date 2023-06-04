@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    margin-top: 10px;
+    background-color: rgba(185,42,46,255);
+}
+
+.nameLogo{
+    transition: all 0.6s ease-in-out;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 69px;
+    font-weight: 900;
+}
+.nameLogo:hover{
+    transform: scale(1.06,1.06);
+    color: rgba(234,235,240,255);
+    text-shadow: 1px -1px 0.5px rgba(43,137,234,255);
+}
+
+.containerNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 60px;
+    margin: 6px;
+    padding: 6px;
+    border-radius: 18px;
+    border-top: solid 2px;
+    transition: all 0.4s ease-in-out;
+}
+.containerNavbar:hover{
+    width: 180px;
+    height: 60px;
+    background-color: rgba(242, 72, 78, 255);
+    border-top: solid 2px rgba(242, 72, 78, 255);
+    box-shadow: 0px 1.5px 0.6px 0px rgba(234,235,240,255);
+    transform: scale(1.1, 1.1);
+}
+
+.textNavbar{
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+.textNavbar:hover{
+    color: rgb(217, 218, 220);
+}
